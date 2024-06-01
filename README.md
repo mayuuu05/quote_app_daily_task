@@ -2,8 +2,9 @@
 
 
 <h1 align="center"> 👉Dialogue box </h1>
+<video height="450" src="https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/69a9036d-e2af-450b-8c6e-f72168d5ed42") />
 <div align = "center">
-  <video height="450" src="https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/69a9036d-e2af-450b-8c6e-f72168d5ed42") />
+ 
     
   <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/5bea6f8b-6706-4aef-9ee9-e437bb00a098"  height=35% width=22%  />
    <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/b644e5ad-4b20-49c8-a4e1-8eb484805519"  height=35% width=22%  />
@@ -13,9 +14,10 @@
    <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/e4521015-065b-4233-83d1-0a9a5cef5dff"  height=35% width=22%  />
     <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/a5ad3a25-63cb-4336-9eca-330470f29e17"  height=35% width=22%  />
   
-   
- 
+    
 </div>
+
+ 
 
 
 
