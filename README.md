@@ -1,6 +1,101 @@
 # quote_app_daily_task
 
+<h1 align="center">
+ #️⃣ Factory constructor & Modal class #️⃣
+</h1>
 
+# Factory constructor
+
+In object-oriented programming, particularly in  Dart languages   a factory constructor is a special type of constructor used to create and return instances of a class.
+
+ Unlike regular constructors, which always return a new instance of the class they belong to, factory constructors can return instances of a different class or even reuse existing instances. This gives developers more control over the creation process.
+
+A factory constructor in Dart is a special type of constructor that allows you to control the instance creation of a class. It can return an existing instance or a new instance, based on the logic you define. This can be particularly useful for scenarios such as implementing singleton patterns, caching instances, or complex initialization logic.
+## Syntax
+
+```bash
+  class ClassName {
+  factory ClassName() {
+    // TODO: return ClassName instance
+  }
+
+  factory ClassName.namedConstructor() {
+    // TODO: return ClassName instance
+  }
+}
+```
+## Example
+
+```bash
+class Person {
+  String firstName;
+  String lastName;
+
+  // constructor
+  Person(this.firstName, this.lastName);
+
+  // factory constructor Person.fromMap
+  factory Person.fromMap(Map<String, Object> map) {
+    final firstName = map['firstName'] as String;
+    final lastName = map['lastName'] as String;
+    return Person(firstName, lastName);
+  }
+}
+
+void main() {
+  // create a person object
+  final person = Person('John', 'Doe');
+
+  // create a person object from map
+  final person2 = Person.fromMap({'firstName': 'Harry', 'lastName': 'Potter'});
+
+  // print first and last name
+  print("From normal constructor: ${person.firstName} ${person.lastName}");
+  print("From factory constructor: ${person2.firstName} ${person2.lastName}");
+}
+```
+
+# Modal Class.
+
+A model class is used to represent the data structure of the application. It is an essential part of the Model-View-Controller (MVC) or Model-View-ViewModel (MVVM) architectural patterns. The model class typically holds data and provides methods to manipulate and retrieve that data. Let's go through the definition and explanation of a model class step by step.
+
+### 👉Components of a Model Class
+
+
+Properties: These are the variables that hold the data attributes of the model.
+
+Constructor: A method to initialize the properties of the model class.
+
+Factory Constructor: A constructor that allows custom logic to create an instance of the class.
+
+Methods: Functions that define behaviors or actions that can be performed on the data.
+
+## Example
+
+```bash
+class Product {
+  String name;
+  double price;
+  String description;
+
+
+  Product({required this.name, required this.price, required this.description});
+}
+
+void main() {
+ 
+  Product product = Product(
+    name: 'Laptop',
+    price: 999.99,
+    description: 'A high-performance laptop',
+  );
+
+  print('Product Name: ${product.name}');
+  print('Product Price: \$${product.price}');
+  print('Product Description: ${product.description}');
+}
+}
+```
 <h1 align="center"> 👉Dialogue box </h1>
 
 <div align = "center">
