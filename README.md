@@ -119,9 +119,7 @@ void main() {
 
   <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/a47e2f57-74d5-4876-ab29-db34cdcd9690"  height=35% width=22%  />
    <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/8b5db11f-3e28-4902-a207-084f8aca1adb"  height=35% width=22%  />
-  <video height="450" src="
-
-https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/ac188ecb-ad93-4e9d-ab67-dfe101b57b50"/>
+  <video height="450" src="https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/ac188ecb-ad93-4e9d-ab67-dfe101b57b50"/>
     
 </div>
 
