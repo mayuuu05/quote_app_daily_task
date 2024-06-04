@@ -123,7 +123,20 @@ void main() {
     
 </div>
 
- 
+<h1 align="center"> 👉Listview to Gridview Toggle View</h1>
+
+<div align = "center">
+
+
+  <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/56b4e3c6-7c27-4ea3-948f-ae59afdb5db0"  height=35% width=22%  />
+   <img src = "https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/3a884f4d-47f4-491d-b40b-e2ad7196e039"  height=35% width=22%  />
+  <video height="450" src="https://github.com/mayuuu05/quote_app_daily_task/assets/149376263/dcc6f1dd-2eec-4e29-a7c7-84cddbdb3f80
+"/>
+    
+</div>
+
+
+
 
 
 
